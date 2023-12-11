@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), MainActivity.class);
-                tampilNotifikasi(etJudul.getText().toString(), etPesan.getText().toString(),i);
+                tampilNotifikasi( etPesan.getText().toString(),etJudul.getText().toString(),i);
             }
         });
     }
